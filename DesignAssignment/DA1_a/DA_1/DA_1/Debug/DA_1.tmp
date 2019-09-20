@@ -1,18 +1,18 @@
 <ASSEMBLER_INFO>
  <VERSION>2.2.7</VERSION>
  <DEVICE>"ATmega328P"</DEVICE>
- <WORKING_DIR>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\Debug</WORKING_DIR>
+ <WORKING_DIR>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\Debug</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
   <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm</SOURCE_FILE>
+ <SOURCE_FILE>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
  </INCLUDED_FILES>
  <OBJECT_FILES>
-  <FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\Debug\DA_1.obj</FILE>
+  <FILE>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\Debug\DA_1.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
   <FILE>DA_1.hex</FILE>
@@ -22,10 +22,10 @@
   <FILE>DA_1.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <loop><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm</FILE><LINE>20</LINE></loop>
-  <reload><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm</FILE><LINE>32</LINE></reload>
-  <loopb><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm</FILE><LINE>24</LINE></loopb>
-  <done><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm</FILE><LINE>38</LINE></done>
-  <NEXT><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm</FILE><LINE>40</LINE></NEXT>
+  <loop><FILE>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm</FILE><LINE>22</LINE></loop>
+  <reload><FILE>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm</FILE><LINE>34</LINE></reload>
+  <loopb><FILE>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm</FILE><LINE>26</LINE></loopb>
+  <done><FILE>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm</FILE><LINE>40</LINE></done>
+  <NEXT><FILE>C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm</FILE><LINE>42</LINE></NEXT>
  </LABELS>
 </ASSEMBLER_INFO>

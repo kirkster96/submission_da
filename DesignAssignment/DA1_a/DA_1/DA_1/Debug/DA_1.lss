@@ -1,10 +1,10 @@
 
-AVRASM ver. 2.2.7  c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm Thu Sep 19 20:48:57 2019
+AVRASM ver. 2.2.7  C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm Thu Sep 19 21:12:26 2019
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
-c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
+C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
-c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
+C:\Users\Kirks\Documents\FALL 2019\CPE 301\Repository\cpe301\DesignAssignment\DA1_a\DA_1\DA_1\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
                                  
                                  ;
                                  
@@ -1042,30 +1042,32 @@ c:\users\kirks\Documents\Atmel Studio\7.0\DA_1\DA_1\main.asm(8): Including file 
                                  
                                  
                                  .ORG 0
-000000 e000                      		LDI R16,0b00000000
-000001 e583                      		LDI R24,0x53
-000002 e491                      		LDI R25,0x41
+000000 e000                      		LDI R16,0x00
                                  
-000003 e374                      		LDI R23,0x34
-000004 e060                      		LDI R22,0x00
+000001 e583                      		LDI R24,0x53 ;lower multiplicand
+000002 e491                      		LDI R25,0x41 ;upper multiplicand
+                                 
+                                 
+000003 e060                      		LDI R22,0x00 ;lower multiplier
+000004 e374                      		LDI R23,0x34 ;upper multiplier
                                  loop:
 000005 1760                      		CP R22,R16
-000006 f039                      		BREQ reload
+000006 f039                      		BREQ reload	;dec LSB from upper multiplier and set lower multiplier to 0xFF
 000007 5061                      		SUBI R22,0b1
                                  loopb:
-000008 0f18                      		ADD R17,R24
-000009 1f29                      		ADC R18,R25
-00000a 1f30                      		ADC R19,R16
-00000b 1f40                      		ADC R20,R16
+000008 0f18                      		ADD R17,R24	;add lower to lowest answer
+000009 1f29                      		ADC R18,R25	;add upper to 2nd lowest answer, include the carry from the lowest addition
+00000a 1f30                      		ADC R19,R16	;add the next register with zero and the carry from the most recent addition
+00000b 1f40                      		ADC R20,R16 ;add the next register with zero and the carry from the most recent addition
                                  
-00000c 940c 0005                 		JMP loop
+00000c 940c 0005                 		JMP loop	;loop to check if done
                                  
                                  reload:
 00000e 1770                      		CP R23,R16
-00000f f021                      		BREQ done
+00000f f021                      		BREQ done	;compare with zero, this means [R23,R22] is all zero and we are done
 000010 957a                      		DEC R23
 000011 ef6f                      		LDI R22, 0xFF
-000012 940c 0008                 		JMP loopb
+000012 940c 0008                 		JMP loopb	;branch to adding another multiplicand to the answer for this decrement
                                  done:
                                  
 
