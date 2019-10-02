@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328PB"</DEVICE>
+ <WORKING_DIR>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.3.300\avrasm\inc\m328PBdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\Debug\DA2_a_T1_asm.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>DA2_a_T1_asm.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>DA2_a_T1_asm.map</FILE>
+  <FILE>DA2_a_T1_asm.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</FILE><LINE>19</LINE></start>
+  <delay3><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</FILE><LINE>22</LINE></delay3>
+  <delay4><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</FILE><LINE>24</LINE></delay4>
+  <delay5><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</FILE><LINE>31</LINE></delay5>
+  <delay0><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</FILE><LINE>44</LINE></delay0>
+  <delay1><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</FILE><LINE>46</LINE></delay1>
+  <delay2><FILE>c:\users\kirks\Documents\Atmel Studio\7.0\DA2_a_T1_asm\DA2_a_T1_asm\main.asm</FILE><LINE>52</LINE></delay2>
+ </LABELS>
+</ASSEMBLER_INFO>

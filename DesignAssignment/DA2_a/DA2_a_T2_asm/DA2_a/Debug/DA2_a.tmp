@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328PB"</DEVICE>
+ <WORKING_DIR>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328PBdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328PBDEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\Debug\DA2_a.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>DA2_a.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>DA2_a.map</FILE>
+  <FILE>DA2_a.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</FILE><LINE>33</LINE></start>
+  <DelaySubroutine><FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</FILE><LINE>12</LINE></DelaySubroutine>
+  <delay0><FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</FILE><LINE>14</LINE></delay0>
+  <delay1><FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</FILE><LINE>16</LINE></delay1>
+  <delay2><FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</FILE><LINE>22</LINE></delay2>
+  <AGAIN><FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</FILE><LINE>47</LINE></AGAIN>
+  <OVER><FILE>C:\Users\Kirks\Documents\Atmel Studio\7.0\DA2_a\DA2_a\main.asm</FILE><LINE>52</LINE></OVER>
+ </LABELS>
+</ASSEMBLER_INFO>
